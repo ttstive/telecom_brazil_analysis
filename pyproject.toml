@@ -1,0 +1,13 @@
+[project]
+name = "telecom-brazil-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.4.3",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+    "soda>=0.0.1",
+    "soda-postgres>=1.13.4",
+]

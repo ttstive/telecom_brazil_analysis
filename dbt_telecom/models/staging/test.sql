@@ -1,0 +1,1 @@
+SELECT * FROM raw_ibc_uf_indicadores_originais LIMIT 100
