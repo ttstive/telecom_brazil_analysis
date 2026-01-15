@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: stg_ibc_uf_indicadores
+    description: Indicadores IBC por UF (staging)
+
+    columns:
+      - name: ano
+        tests:
+          - not_null
+
+      - name: uf
+        tests:
+          - not_null
+
+      - name: cobertura_4G_5G
+        tests:
+          - not_null
+
+      - name: densidade_smp
+        tests:
+          - not_null
+      - name: densidade_scm
+        tests:
+          - not_null
+
+      - name: fibra
+        tests:
+         - not_null
+                
+
+      - name: cobertura_area_agricola
+        tests:
+          - not_null
